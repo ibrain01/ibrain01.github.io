@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius:100px;
+    height: 150px;
+   padding: 10px;
+   margin-top: 10px;
+}
+hr{
+    width:1200px;
+}
+#dados{
+    margin-top: -13%;
+    margin-left: 150px;
+}
+#dados2{
+    margin-left: 150px; 
+}
+p{
+    font-size:15px;
+}
+h1{
+    background-color: rgb(120, 120, 204);
+}
+h2{
+    background-color: rgb(120, 120, 204);
+}
+
+@media(max-width: 768px){
+    #dados{
+        margin-left:2%;
+        margin-top: 0%;
+    }
+    #dados2{
+        margin-left: 2%; 
+    }
+}
